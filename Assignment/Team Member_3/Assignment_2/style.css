@@ -1,0 +1,50 @@
+.header{
+    padding: 10px 120px;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+}
+
+.border{
+    padding: 80px 50px;
+    width: 400px;
+    height: 450px;
+    border: 1px solid blue;
+    border-radius: 0px;
+    background-color: #9AC0CD;
+}
+
+.btn {
+    padding: 10px 40px;
+    background-color: white;
+    color: black;
+    font-style: oblique;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.textbox{
+    padding: 10px 40px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+     
+::placeholder {
+    color: black;
+    opacity: 1;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.word{
+    color: black;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.bottom{
+    color: #236B8E;
+    font-style: oblique;
+    font-weight: bold;
+}
