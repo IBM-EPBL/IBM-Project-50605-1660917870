@@ -1,0 +1,59 @@
+
+                <div class="form-group">
+                     <label for="">Date</label> 
+                     <input class="form-control" type="datetime-local" name="date" id="date"></div>
+                <div class="form-group"> <label for="">Expense name</label> 
+                    <input class="form-control" type="text" name="expensename" id="expensename">
+                </div>
+                <div class="form-group">
+                     <label for="">Expense Amount</label> 
+                      <input class="form-control"  type="number" min="0" name="amount" id="amount">
+                </div>
+
+                <div class="form-group">
+                    <label for=""></label> 
+                    <select class="form-control" name="paymode" id="paymode">
+                        <option  selected hidden>Pay-Mode</option>
+                        <option name="onlinebanking" value="onlinebanking">onlinebanking</option>
+                        <option name="epayment" value="epayment">epayment</option>
+                        <option name="debitcard" value="debitcard">debitcard</option>
+                        <option name="creditcard" value="creditcard">creditcard</option>
+                        <option name="cash" value="cash">cash</option>
+                    
+                    </select>
+                
+               
+                
+
+                 <div class="form-group">
+                    <label for=""></label>
+                    <select class="form-control" name="category" id="category">
+
+                         <option selected hidden>Category</option>
+                        <option   name = "Rent" value="Rent">Rent</option>
+                        <option name = "Food" value="Food">Food</option>
+                        <option name = "EMI" value="EMI">EMI</option>
+                        <option name ="Business" value="Business">Business</option>
+                        <option name = "Entertainment" value="Entertainment">Entertainment</option>
+                        <option name = "other" value="other">other</option>
+            
+                    </select>
+                </div>
+
+               
+                
+                <input class="btn btn-danger" type="submit" value="Add" id="">
+        
+            </form>
+            
+            <div  style="position: relative; left: 590px; top: -460px;" class="imagge">
+                <img width="90%" height="90%" src="../static/images/addd.jpg" class="rounded float-left" alt="...">
+
+               </div>
+              
+        </div>
+    </div>
+    
+</div>
+   
+    {% endblock %}
